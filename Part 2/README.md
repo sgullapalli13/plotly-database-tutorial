@@ -1,3 +1,4 @@
+# plotly-database-tutorial: Part 2
 
 Note: This is a continuation of a tutorial. For Part 1 on learning how to pull databases into a pandas dataframe and displaying with plotly, see plotly-database-tutorial/Part 1. 
 
