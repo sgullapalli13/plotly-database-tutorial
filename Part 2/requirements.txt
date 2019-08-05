@@ -1,0 +1,6 @@
+Flask
+SQLAlchemy
+Flask-SQLAlchemy
+Plotly
+Pandas
+sqlite3

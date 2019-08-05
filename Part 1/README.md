@@ -159,4 +159,3 @@ Finally, we will put it all together and output our chart. Remember that go.Figu
 ```
 
 Now you know how easy it is to represent your data in a plotly graph with just a few lines. Enjoy!
-
