@@ -33,7 +33,7 @@ Here we are giving the container a name so we can more easily refer to it later 
 
 We can use ```sudo docker ps``` to view our running container. 
 
-Our app is up and running now! To see it on the internet, we can go back to the Google Cloud page and find the IP address of the VM. Paste this into your browser followed by the port. It should look something like this: 
+Our app is up and running now! To see it on the internet, we can go back to the Google Cloud page and find the external IP address of the VM. Paste this into your browser followed by the port.
 
 Note: If your app is not showing up, first make sure your code isn’t throwing errors with ```sudo docker logs --tail 100 <container name>``` to see what was sent to the console logs. Then check to make sure your IP mapping is correct.
 
