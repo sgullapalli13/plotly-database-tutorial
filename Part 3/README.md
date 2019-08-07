@@ -26,8 +26,9 @@ Save the project and push it to Github or find some way to transfer it into the 
 
 Now we are going to build the image and container.
 ```sudo docker build -t <container>:latest .```
-And run the container
-```sudo docker run --name <container name> -p 80:8080 -d <container>
+And run the container with
+```sudo docker run --name <container name> -p 80:8080 -d <container>```
+
 Here we are giving the container a name so we can more easily refer to it later on. Also, -p maps the external port we can view it at to the internal port. HTTP protocols run on port 80. 
 
 We can use ```sudo docker ps``` to view our running container. 
