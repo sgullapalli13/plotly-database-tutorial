@@ -103,4 +103,11 @@ Flask comes with jinja2, an easy way of passing variables writing script in the 
 </html>
 ```
 
-In a terminal we can run ```python app.py```, and then go to a browser to visit localhost:5000 (or some other specified port) to view our work.
+Flask defaults to running our app on port 5000, but to specify another port, in our app.py file we can add:
+```
+if __name__ == "__main__":
+	app.run(host='127.0.0.1',port=8080)
+```
+
+In a terminal we can run ```python app.py```, and then go to a browser to visit localhost:8080 to view our work.
+
