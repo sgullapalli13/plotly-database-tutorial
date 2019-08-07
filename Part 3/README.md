@@ -16,6 +16,7 @@ COPY . /github_demo/
 EXPOSE 8080
 ENTRYPOINT [“python”]
 CMD [“app.py”]
+```
 
 We want to build this on a python image so we don’t have to install python. We copy all our files into the container then run requirements so it installs all our dependencies. Flask defaults output to port 5000, but I specified in my app that I’d like to output on 8080, so we expose that. Finally, we have the command to run our program.
 
