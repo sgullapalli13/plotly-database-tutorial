@@ -106,7 +106,7 @@ Flask comes with jinja2, an easy way of passing variables writing script in the 
 Flask defaults to running our app on port 5000, but to specify another port, in our app.py file we can add:
 ```
 if __name__ == "__main__":
-	app.run(host='127.0.0.1',port=8080)
+	app.run(host='0.0.0.0',port=8080)
 ```
 
 In a terminal we can run ```python app.py```, and then go to a browser to visit localhost:8080 to view our work.
