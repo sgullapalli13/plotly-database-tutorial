@@ -8,14 +8,14 @@ We can start by making a Google Cloud account. After setting that up, go to Comp
 Before we can dockerize our code, we need to add a Dockerfile in our project folder. It has to be at the highest level of your project to copy the files it needs.
 ```
 FROM python:3
-LABEL maintainer=”sgullapalli13@github.com”
+LABEL maintainer="sgullapalli13@github.com"
 WORKDIR /github_demo
 COPY ./requirements.txt /github_demo/requirements.txt
 RUN pip install -r requirements.txt
 COPY . /github_demo/
 EXPOSE 8080
-ENTRYPOINT [“python”]
-CMD [“app.py”]
+ENTRYPOINT ["python"]
+CMD ["app.py"]
 ```
 
 We want to build this on a python image so we don’t have to install python. We copy all our files into the container then run requirements so it installs all our dependencies. Flask defaults output to port 5000, but I specified in my app that I’d like to output on 8080, so we expose that. Finally, we have the command to run our program.
