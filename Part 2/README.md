@@ -61,12 +61,12 @@ The last lines of the code need to be changed, because instead of producing an i
 ```
 <!DOCTYPE html>
 <html>
-<head lang=”en”>
-	<meta charset=”UTF=8”>
+<head lang="en">
+	<meta charset="UTF=8">
 </head>
 <body>
 	Hello World!
-	<div id= “graphdiv”> </div>
+	<div id= "graphdiv"> </div>
 </body>
 <script>
 </script>
